@@ -8,12 +8,13 @@ body{
     margin: 0;
 }
 .spacer_content{
-    height: 200px;
+    height: 350px;
 }
-/*.container{
-
-}*/
+.container1{
+    margin-top: 40px;
+}
 .first_task{
+    margin-top: 40px;
     position: relative;
     height: 200px;
     width: 200px;
@@ -245,7 +246,7 @@ body{
         line-height: 1.48;
     }
     .header_link{
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 
