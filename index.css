@@ -235,6 +235,9 @@ body{
     align-self: end;
     padding-top: 20px;
 }
+.task_auditory span{
+    display: block;
+}
 
 
 

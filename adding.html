@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,11 +14,12 @@
     <link rel="icon" href="computer.png">
     <meta property="og:image" content="computer.png">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
             <div class="header_body">
-                <div class = "logo">
+                <div class="logo">
                     <div class="screen"></div>
                     <div class="whiteScreen"></div>
                     <div class="blackLine"></div>
@@ -46,13 +48,22 @@
                     </ul>
                 </nav>
             </div>
-            
+
         </div>
-        
+
     </header>
 
     <div class="content">
-        <div class="spacer_content"></div>
+        <div class="task_auditory">
+            <span>Введите длину первой стороны:</span>
+            <input type="text" id="side1" onchange="triangleAnswer()">
+            <span>Введите длину второй стороны:</span>
+            <input type="text" id="side2" onchange="triangleAnswer()">
+            <span>Введите длину третей стороны:</span>
+            <input type="text" id="side3" onchange="triangleAnswer()">
+            <br>
+            <img src="tr-4.jpg" alt="null" id="image">
+        </div>
     </div>
 
     <footer class="footer">
@@ -76,18 +87,23 @@
                 </nav>
                 <div class="footer_name">Computer <br>Universe</div>
                 <div class="useful_links">
-                    <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D1%82%D1%8C" class="footer_link">Социальные сети:</a>
+                    <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D1%82%D1%8C"
+                        class="footer_link">Социальные сети:</a>
                     <a href="https://vk.com" class="footer_link">ВКонтакте</a>
                     <a href="https://www.youtube.com/" class="footer_link">YouTube</a>
                 </div>
                 <div class="additing_information">zharkov.de@edu.spbstu.ru<br><br>St.Petersburg, Harchenko st. 16</div>
             </div>
-            
+
         </div>
     </footer>
 
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="jscode.js"></script>
+    <script src="audition_task.js"></script>
 </body>
+
 </html>
